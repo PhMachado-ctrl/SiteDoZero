@@ -6,13 +6,32 @@ body{
 
 /*Edição do cabeçalho da página*/
 .menu-principal{
+    width: 100%;
     background-color: #252323;
     height: 60px;
 }
 
 /*Tag Principal*/
 main{
+    margin: 0 auto; /*Centralizada horizontalmente na tela*/
     width: 980px;
-    float: left;
     position: relative;
+}
+
+.logo{
+    float: left;
+    padding: 16px;
+    width: 70%;
+}
+
+.redes-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;  /*Tira as linhas de marcação*/
+    float: left;
+    list-style: none;
+}
+
+.redes-sociais{
+    width: 25%;
+    float: right;
 }
