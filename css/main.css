@@ -1,3 +1,18 @@
-.header-1{
+/*Edição do corpo da página*/
+body{
+    width: 100%; /*Largura*/
+    height: 100%; /*Altura*/
+}
+
+/*Edição do cabeçalho da página*/
+.menu-principal{
     background-color: #252323;
+    height: 60px;
+}
+
+/*Tag Principal*/
+main{
+    width: 980px;
+    float: left;
+    position: relative;
 }
